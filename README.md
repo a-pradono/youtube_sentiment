@@ -49,15 +49,20 @@ Due to the sentiment metrics of the comment as shown in the figure below, it tur
   <img width="250" height="300" src="https://github.com/a-pradono/youtube_sentiment/blob/main/Images/figure-04.jpg">
 </p>
 
-Finally, the results of positive and negative words can be visualized using word cloud. The first figure is for the positive sentiments and the second figure is for the negative sentiments of the All Eyez on Me trailer YouTube video's comment as shown below.
+Finally, the results of positive and negative words can be visualized using word cloud. The first figure is for the positive sentiments and the second figure is for the negative sentiments of the All Eyez on Me trailer YouTube video's comments as shown below.
 
 <p align="center">
   <img width="400" height="200" src="https://github.com/a-pradono/youtube_sentiment/blob/main/Images/figure-05.jpg">
+<p align="center">
+  Positive words
 </p>
 
 <p align="center">
   <img width="400" height="200" src="https://github.com/a-pradono/youtube_sentiment/blob/main/Images/figure-06.jpg">
+<p align="center">
+  Negative words
 </p>
+
 
 ## IV. Conclusions
 The objective of this project was to classify people's opinions whether is positive, neutral, or negative based on YouTube video comments of the All Eyez on Me trailer. The conclusions made from this project are:
