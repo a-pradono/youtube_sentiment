@@ -37,7 +37,7 @@ Sometimes, data not always come perfectly. The figure below illustrates how I pe
   <img width="400" height="200" src="https://github.com/a-pradono/youtube_sentiment/blob/main/Images/figure-02.jpg">
 </p>
 
-Just out of curiosity, I would like to know how many comments in the YouTube video that get likes from other users. The figure below shows that most of the comments with likes only have 29 % while the comments without likes have dominated the data frame by 71 %.
+Since there are comments with and without likes, I would like to know how many comments in the YouTube video that get likes from other users. The figure below shows that most of the comments with likes only have 29% while the comments without likes have dominated the data frame by 71%.
 
 <p align="center">
   <img width="250" height="250" src="https://github.com/a-pradono/youtube_sentiment/blob/main/Images/figure-03.jpg">
@@ -67,6 +67,6 @@ Finally, the results of positive and negative words can be visualized using word
 ## IV. Conclusions
 The objective of this project was to classify people's opinions whether is positive, neutral, or negative based on YouTube video comments of the All Eyez on Me trailer. The conclusions made from this project are:
   * YouTube data API is convenient for scraping data, but you need to first register for google developers console to get your own key API. 
-  * There are 29 % of comments with likes and 71 % of comments without likes in the data frame.
+  * There are 29% of comments with likes and 71% of comments without likes in the data frame.
   * This trailer video has more positive comments followed by neutral comments and negative comments due to the sentiment metrics.
   * Overall, sentiment analysis using VADER is very encouraging to understand not only the basic context but the emphasis on capitalization and punctuation.
