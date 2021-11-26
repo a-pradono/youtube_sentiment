@@ -2,7 +2,7 @@
   <img width="300" height="250" src="https://github.com/a-pradono/youtube_sentiment/blob/main/Images/pac_header.jpg">
 </p>
 <p align="center">
-  <em>Photo by WallpaperCave</em>
+  <em>Photo by <a href=https://wallpapercave.com/all-eyez-on-me-wallpapers>WallpaperCave</em>
 </p>
 
 ## Table of Contents
