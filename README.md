@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="300" height="250" src="https://github.com/a-pradono/youtube_sentiment/blob/main/Images/pac_header.jpg">
+  <img width="300" height="250" src="https://github.com/a-pradono/youtube_sentiment/blob/main/images/pac_header.jpg">
 </p>
 <p align="center">
   <em>Photo by <a href=https://wallpapercave.com/all-eyez-on-me-wallpapers>WallpaperCave</em>
@@ -19,7 +19,7 @@ It is no doubt that Tupac Shakur was one of the most influential rappers of all 
 The data of this project was conducted from [All Eyez on Me Trailer #1 (2017)](https://www.youtube.com/watch?v=njnwYSybwko&t=3s) YouTube video, posted by Movieclips Trailers. Furthermore, various comments from this video were scraped and stored into a data frame that consists of +2000 observations. 
 
 <p align="center">
-  <img width="300" height="100" src="https://github.com/a-pradono/youtube_sentiment/blob/main/Images/workflow.jpg">
+  <img width="300" height="100" src="https://github.com/a-pradono/youtube_sentiment/blob/main/images/workflow.jpg">
 </p>
 
 The workflow above illustrates how I performed sentiment analysis for this project. First of all, several parameters are needed to be set to scrape information from the video using YouTube data API. Second, the result from scraping data was stored into csv data format to perform data cleaning before further analysis. Finally, sentiment analysis using VADER has been identified to better understand the number of opinions from people through their comments regarding this trailer YouTube video.
@@ -28,37 +28,37 @@ The workflow above illustrates how I performed sentiment analysis for this proje
 Initially from scraping, this data consists of 2072 rows x 3 columns. However, we all know that users of YouTube came from around the world and perhaps not all of those comments resulted in the english language. Therefore, I tried to detect the language with only english language in the data frame which resulted in 1701 rows x 3 columns and is shown by this figure below.
 
 <p align="center">
-  <img width="400" height="200" src="https://github.com/a-pradono/youtube_sentiment/blob/main/Images/figure-01.jpg">
+  <img width="400" height="200" src="https://github.com/a-pradono/youtube_sentiment/blob/main/images/figure-01.jpg">
 </p>
 
 Sometimes, data not always come perfectly. The figure below illustrates how I performed text cleaning using a regular expression to get rid of '\n' special character like in row number 361 for instance.
 
 <p align="center">
-  <img width="400" height="200" src="https://github.com/a-pradono/youtube_sentiment/blob/main/Images/figure-02.jpg">
+  <img width="400" height="200" src="https://github.com/a-pradono/youtube_sentiment/blob/main/images/figure-02.jpg">
 </p>
 
 Since there are comments with and without likes, I would like to know how many comments in the YouTube video that get likes from other users. The figure below shows that most of the comments with likes only have 29% while the comments without likes have dominated the data frame by 71%.
 
 <p align="center">
-  <img width="250" height="250" src="https://github.com/a-pradono/youtube_sentiment/blob/main/Images/figure-03.jpg">
+  <img width="250" height="250" src="https://github.com/a-pradono/youtube_sentiment/blob/main/images/figure-03.jpg">
 </p>
 
 Due to the sentiment metrics of the comment as shown in the figure below, it turned out that this trailer has a significant of positive comments and followed by neutral comments and negative comments. The range compound score of sentiment metrics is -1 that leads to more negative and 1 which leads to more positive with -0.05 to 0.05 as neutral.
 
 <p align="center">
-  <img width="250" height="300" src="https://github.com/a-pradono/youtube_sentiment/blob/main/Images/figure-04.jpg">
+  <img width="250" height="300" src="https://github.com/a-pradono/youtube_sentiment/blob/main/images/figure-04.jpg">
 </p>
 
 Finally, the results of positive and negative words can be visualized using word cloud. The first figure is for the positive sentiments and the second figure is for the negative sentiments of the All Eyez on Me trailer YouTube video's comments as shown below.
 
 <p align="center">
-  <img width="400" height="200" src="https://github.com/a-pradono/youtube_sentiment/blob/main/Images/figure-05.jpg">
+  <img width="400" height="200" src="https://github.com/a-pradono/youtube_sentiment/blob/main/images/figure-05.jpg">
 <p align="center">
   Positive words
 </p>
 
 <p align="center">
-  <img width="400" height="200" src="https://github.com/a-pradono/youtube_sentiment/blob/main/Images/figure-06.jpg">
+  <img width="400" height="200" src="https://github.com/a-pradono/youtube_sentiment/blob/main/images/figure-06.jpg">
 <p align="center">
   Negative words
 </p>
